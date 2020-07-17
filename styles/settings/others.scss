@@ -1,0 +1,48 @@
+.flex{
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+}
+.color-grad-first{
+	background: linear-gradient(90deg, #83A4D4 0%, #B6FBFF 100%);
+}
+.color-grad-second{
+	background: linear-gradient(135.05deg, #7474BF 0%, #348AC7 66.7%);
+}
+.color-background-first{
+		background: #E9F0FA;
+}
+.color-background-second{
+	background: #3589C6;
+}
+.color-background-second2{
+	background: #B9CEDE;
+}
+.main-title-p{
+	color: #0072DE;
+	font-weight: bold;
+	font-size: 34px;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: start;
+	@include tablets {
+		text-align: center;
+		padding-bottom: 2.61%;
+		padding-top: 2.61%;
+	}
+
+	@include phones {
+		font-size: 28px !important;
+	}
+}
+.main-title-p>span{
+	font-weight: 800;
+	text-transform: uppercase;
+}
+.l-text-pb{
+	padding-bottom: 30px;
+	@include tablets {
+	padding-bottom: 0px;
+}
+}
